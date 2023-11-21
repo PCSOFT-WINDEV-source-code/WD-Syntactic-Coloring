@@ -1,0 +1,414 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : WIN_SQLXMLHTML
+ major_version : 28
+ minor_version : 0
+ type : 2
+ description : ""
+ subtype : 0
+window :
+ name : WIN_SQLXMLHTML
+ identifier : 0x286d0a70026abde6
+ internal_properties : CAAAAAgAAADPotCIyPh7AS8aUpa4saFMDVl4TtPW2eJbGqVob503dmSMjB4qsV89Vi0eLnZgfad+oQ3GJw8YbF8oyNfIZNxZIMV2LZDe90Jxar/HuhcKh38SJM7u8840ouDdJN3wg0ZzpDgPN3hQEZaypZKisQYO7Uf+TL9JVhEc1DOgFH5zC0lkhuhn4Z9pmIhkmWwOxiXBtFAxXbR5oP5ZybMdnmwmGXmhnyfepY9G3Ek5xCuvliKHDGCoa8quLUtZG2H4oMnaPkfOnkoxAz78EZAx9QVFHJAQ43hYMynfdqwUYO+iHOclBtx5ODJcHszAmLudpzHPvVx5LpHSd8G1Mpl/ocCwRJoakBL+TBQq7pMTt/YqFiQNVsfJYnhqWBz6K2cz6HSuLVNcUAiaa2GjE3GlD5HoZVeryRySCRzv0w3nW76mxtuVALUQ2Cs0WyeP9jUtLZdClU0yR0R7e5KQFYiTIzASqAra8HLXxUo8KrnVyr+02FAt4dgF7RuycmMeykxicRcGQQ0+ryjQZw2qrJfXsBiBEF/F7fEq/k1lnIQ/bppI56I8cuYchZHgrkEZz5TJU59OC+hD16YSmDoKhKoeLnBxba70zE1WAybBv/PjWlgIrRBPGbqjNq4D5x/aZh9voooHBiEVEbs6bVuBWvnE9LdcgQ1DqFFzLgljsY+W/y2ZlgYaZBwB9GAXCcVjgwxOr8x1/HTaZUdZENdqihN2ujPUh37uS9z5EPMRHWzJF3HHzP08v4v0gfSEUhrzuzXXbqfztKsjh1LyM/nIpGQe+uSb8rLwoDba+g8bWQHPrmCL63Nq12xtHAzl6rqPahilfwzzeicFxLTO3upHzB9qyRSMITSikvZnMvFaCzK3GoNLy8ya7urqrGLTB/nPPi0jLbm3HICakRrYWp50k9+yNmV6SVByyEVnFX5xtvs44S20m09C/vSH2i4/
+ properties :
+  width : 427
+  height : 328
+  widthClient : 425
+  heightClient : 296
+ controls :
+  -
+    name : BTN_Close
+    identifier : 0x286d0a70026bbde6
+    internal_properties : CAAAAAgAAABxD3TC3aLWJ/uvguBtDkP4qzcDvdBMz/4lmDcfN3hitHTwhWmHpmnE/cyp1WX5Kux8WZ3Xkq7hHpY2YAg2rciqBPyJhsxTX791j5dZEJsFPIznRkOuZzek6ukUFZagfbhRLc2iZslCPFRZ25hk9MD9DzXupcOzBGtRSfG+DYy1xAruGjvwZUEEiPB4L15w1eZm+zmSm6Rc2VZfQdoQAd0DcAFQK24gXTdN/4MxpAit/xDWGO0w8YI84b8Xa0zjq08aUXaUAdArF29f7mQAp1Un3s0zNReovhlKhziW43q9vTvcMibBGQLFsicqcDQ7bp2oBL0/DNGjqBgBxhEfGdb77j4RM3hzcGz0tvnUoBeYU+7Igw2FrX4zk44KlDdpVRluq2W9CSwD7KODnVePHyTdNCdsL7NfRZofm+s6tfJGtFMb2Q1gY05u5sOFycyjAWZRAuOU9nUDDJqV2bLmqephyULdmdcy8CNIR9z7IKhtuUedmIFs3UOtcj7cE/kVVp4Y8svEHs1nJOgSD0ZCgilSbkYWOGmfvEDWhxAzWyhX5pZ7KfMHltBqiSBIsdqrJNYOyhW1Xpq/phvI862lng3l9Ij3PigDSyVzn8/YEwbeI3auwkpJ6HCQQVCr+kH8KaBkAdiHY6Togf8VrDcBfUoIWpEeDkxc4H7WIYfIvl8UcUrhgKbU7hHnXVtZqQC6Uy5zGgUnPb5ywYElKpZsaQ4BeW/qq/eszAiAVOpiWqnPwtaqfFZgKQoEdTVTybKB1B9HcgB4m6zGnhov0RRZkUstvsCASYKVoGPrjCX3X9I8M5Gvqpt8RV6U5Rq9uwjCu7JaxWqQrE9R+LuWxwBwfVVG5PiQDLbH6xdixEVlriVZWv98BnvXS7JSx87x9AlKg9cThHkl+GZomsX4acrsI6DbPN8RwjY=
+    properties :
+     x : 339
+     y : 268
+     width : 80
+     height : 24
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        internal_properties : CAAAAAgAAADQZyvpRjJZltgKBVFD+SKMukTEU1n2G2jmPSjnx1ZKdSF2vB36egNKcReVrz/xwpIZdIpZoyUu0CjPxu+MpGLAedmE/39iAmJIcu72BpKoWkpseLXy2lnJGPSMFw==
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : TAB_Tab1
+    identifier : 0x286d0a70026cbde6
+    internal_properties : CAAAAAgAAAA9t7YfMqhtNvLroXw9OOhjoaFsovu/pOE+ymRFM1mwqOMNzhgXcNc4SMRE2iFHIShD0UAMYu0/5XZddQSWuuXaQPecafNq90XpYDN+8qSiurg7OTn3w4FE3PPPNWeFfqTvq2rA+i3NlmtJqbmbCMP9G3aYFNlkCkoLCSqCxEwUGXifI5jDFRjNoNU1Hxb3cAP9Yn4XzKjnTvic/fZ7wWvKwbS63ht4FYbw+46zydGtTbkjaqYM9Z4ytjSBnt2N7pP8t0sPWbld70pfcdItFgs6/7N4As/M8WhmER1kgEJcptIabwNRoWFRUBHH084k2ydzv28AvLRaQcxHR0Ht4qY6az22yns7GI4qRNGaIK7W2aTx+Ds4yZ6quHiu6IdOcYV6XGpdFcsuiuuukUhOnwZcX5OCyGZ2uyvxpS7w2LpmqMthh+XOSEcQ1JYoq7Do/2SdyeAnUU3d5XYOOEtS/uszBSvKSSQsNvbOG5oJKp+7eO92LXX//0C3IzIIEk8c2AMF7hC/hHk8NauK3dEOkD9GXfwENaH3n24AtA9BAP8aE/XEBM+r0Oh1wN5MDztaGzsr3ti2J52/fl/V+hHS6f3IIVgBzlRc0xDuXU+AkMIWglNAfrcUxGIRNHo0w6hMtCT1mPCmn05bwYWCAvaORiqxwxvWWUgJpKdywvKfjD9V0Gl7Wspmrb5A78tkyN4bJmsDfIpmOxxQfLSCe4dsYo6fVteyBl+Wkgof/6xCUBtdi9BwS3yOGb66k3BgADX9AKyX3ivz/VmNqh4Rl0K2KuEIFiX5jTugGXXt0AYsCk4wU4zSaWparxxJoYnx6eT+nvci1Mj6u3B01U0sindC8hOj8FI1mTWyQ0PpOD6kV9kC4jjWW/qMb+xDCoAQotjb1vQrLde0+xni5PwgqK2/Q+3ZPFFuuLshuK3rP4108N9fqj6Im7Swvznw+pexSNHFrszGuQ8qgTttt/fuxVFa3X4rgYxqpGXpYeJ4a5qOzSAAUA7xULBM7hlF0bfZWafqZItFNLGlKPKc3zHQtVi3r+zdsE/BhoQB/o18NtIIGJhuPDiB0lGc8q7vM05JpnMSAkNMzvaZgeW75pjOL6608BoLZUaYenjMsupRQUdtHu+wjMYfUzl0eBC5/70Q20ZZU2GQiigydrfyo/g1ToN5R6Lt8dD0ZuR1BVT/40k25pf0RTEmdQQnTWvds/GkMJYVSXqQIuhAReu4DzX5903d54l8DqDs3te5UDkicRTV3vkoOe13TA+eZSeOZAOV/W5P/agYJp/pQ0me
+    properties :
+     x : 6
+     y : 6
+     width : 413
+     height : 256
+    tabs :
+     -
+       internal_properties : CAAAAAgAAABoswefp7RNxJYcZ7kT8gE0p2jd9ubIVQhYH8Qc7SQwZPLcvyudMD/gKnrnqncp5cQn2hVK8GlPi6g8XT4mvyF6s1BV8ujcKqzBXcj8Ty8+lv4ZonyR+UZwz2gmIkvMToIooWS7EyWKbiNqhFWhpqJWN/UaGFkhMbFrWsQ6eeE6fcTaYQY=
+       controls :
+        -
+          name : EDT_SQLCODE
+          identifier : 0x286d0a70026ebde6
+          internal_properties : CAAAAAgAAAA/3DHPl6xRkeIU6yBBiETR2Wkv1qmMBQnnI1fYcVq8M+uhhKkT9X82Uc2GJ8iz8ThZ7eqv43TKwr7A52Tn6FCrNEMg1u0mgeMesJUsknrPq4lySAyf4o2R5ar9dpMShTI7XdjVcSNUeRvF/W9waBfh/a4qsujfQ0O/nSBggXmFtw1gMpfPhppo/x7ULa7Wo9fZM/ZQfoFHmadwqc/ZrT9DUcxi2bIjXdV8mh2Nw1PYmC9A2iOjHXfH7e1enJc34+i2+f+i9XycXG3UyV0C0cU0OINmV5vBW3zPAQ+dMdSFXmsbNGOynAUrekk+10tF3dIj3/BioV2vR/vmdRQxPuuDRNk70ULT17Ouit0DFTrPF7P+xkO5qLMi/hWRQhmIlBsDhHlrlTX9bHp9CMEn1EIzwsXTrM9cfarpvEUM2daZykCnjJegdUMWRYur6jH0kY0TvAOKEs4w6CclUHnPWShjkbAcXxiOw8v9Fm58RKfesVWyQap8WHWYhYoXp5T4cUBzIb6e4dNBeN8ie6HQEBgJWemxYgsZobY3vJ8tNJvNlea3PHWA+WII5Rt4pI35rwen4iEtNfp0P+/uBaxoYsF/poAHnWljX2g99sGY1rFYMzViUSQjNx3n9bv9lCACFwwjmTWqEtNzLbi7OXxouvKKCXvUUzfXlaabWvw92cahP5py6wN5Cc262YSRPjlCABiROAKiYDu4hcSavLo50FGM5Qjj7UhKl4tpT3kgsV+InTTrVIruN/w0oIwopc0QmiOnHVxBAP66pngFb2pZXC5gbE2VfTlJRahFdnfSjuPLK5vzPfb3GtQnlbMdgTDjgQTABkArlVSQFW/oIubv7WKBMW6I2L/VjD+k64r7mUB/fOtyWQ7NCg0eLPMQWIruSheV9UD4ege1Q0lyt6fwOOdPQwUDvfyiM8ATos2hhIgp1eBv3iXtdrPvJMirc7cPY0mTc5FmIut9Ou0Ja2EnjuHTYJgKTqX2fqvrWMSHqKH1KBdYiaiPVOWh01YLt3S9tHUo1KJvUKoFS+gYgxcHcbmCJ7lAMdu8GQwGhAwafrdm9FI7gwFSv6FHtcOJY6i2scq4SfHpcc/0FhO4fPnwXLA7TXynj4bRTsZsjoRKKNJE6NuQQ0FySrTKttmPFuqifrvdDYlCfNFwWs24xpWjF6RCCIbABq+0Lny8DjHgD9nHK9Hayr/PbcMZNgdH3/AF0qx89ROVDeIwvwwfOM5PvKY+5xeejJzs4MjQ1QgJ2xEJ13nf36X2hkjxkO69f/jebArXtrjC8dWeqjK1HhAUiSY+5+QD5ViTl/C844KCnTMUD2/oixrxnL9TWxRiTHG/yWi+vQytwhygnL5TNwKIdz/AG1TrgeOaZXp1W6HjM3E43m3bZDMlc4LHjskKPq+tzCjD3p4n0qFlP2ult+1t/l7degQ0TNbDmI8/S0kidE1AhInCTFffewnGfXjFZHoqcqAvcqwvmq3euLy09VvK/eGoxjCKUtfIR3Uda+Wh66ATg1pPtLDjfy/0uu1X6/lcmqSrq1oXaj4oRVKAiDyf0agP6CiobNIYTRvA0ePlb4NFWg5tj9NkYqFUmjxPJw36B4RFBQkjnXHwtUN95UciinncGd2D64qM1wr11H+xkk5alSYZ0SZ1DcIhg6gJh48EHCvmbY7uVzzFkprq8Fwu9FdM6Q095SiUWRwSKX6X2c0/P7qlQLP9kCT6k3YZXUuzSa9mgaPRc5Yd6FPWnBAL+1dHK0nyJtBc4zZwKYvd5RvnZdsBioga7b4x/qbzUUlpLjE=
+          properties :
+           x : 6
+           y : 24
+           width : 401
+           height : 204
+          type : 2
+          code_elements :
+           type_code : 3
+           p_codes :
+            -
+              type : 276
+              enabled : false
+            -
+              type : 277
+              enabled : false
+            -
+              type : 278
+              enabled : false
+            -
+              internal_properties : CAAAAAgAAABvZq4eUxl2SVneK2E6gnKjFrB+NCHpYi3jlIq4BDtnp9QBpXVqGTcLbNuseWtGjY4Dj9XrPkest8LP0wiZdevmXEA2PBPAXmQEPQtunkL9BCLfivKsIK5BjI3MZPiesRvE+F+jTWjc91mL7ZazQqT40/r6nghV5kIToIT538ngYw==
+              code : |1-
+               
+               bCRManagement is boolean
+               
+               // Retrieves the cursor position
+               nCursor is int = EDT_SQLCODE..Cursor
+               
+               // Retrieves the SQL code
+               bufCode    is string = RTFToText(EDT_SQLCODE)
+               
+               // If the input cursor is found at the end of the code
+               IF nCursor = Length(bufCode) THEN
+               	
+               	// Reposition the cursor while taking the carriage returns into account
+               	bCRManagement = True
+               END
+               
+               // Defines the SQL code
+               SQL:SetCode(bufCode)
+               
+               EDT_SQLCODE..DisplayEnabled = False
+               
+               // Performs the coloring
+               EDT_SQLCODE = SQL:Coloring()
+               
+               // Repositions the input cursor
+               EDT_SQLCODE..Cursor = nCursor + (bCRManagement ? Max(0,(StringCount(bufCode, CR) - 1)) ELSE 0)
+               
+               EDT_SQLCODE..DisplayEnabled = True
+              type : 17
+        -
+          name : STC_Entering_SQL_code
+          identifier : 0x286d0a70026fbde6
+          internal_properties : CAAAAAgAAADFrkizBqvDcOLllIcK1IDGtpe9dfWpHhD/P5grYov1JeIwCM43TQwNRzqOX+JDJv2dlPqlmwuOqtSaHUa84K35/KE/fnErUz73lTg/6bitrCk/B+j0PpvI3sAII93gLdYHQvkqLpsVhmWz+Hf2lyHzQ7H2CfG13QAhmbML62Q6sfn5nIv8/bozuKIG90RGQi63cbb8v6ba7FBnS2alixkzty1mRfhNLb8saHHdbl4aIeDZ+joxFacAyS3koS4nTS124QukEJfPZJDAb92tbyAZgYprQkbA1SNb8wYVPwKfGZIhDLotN5R2GX2kT1sX4gehpMAk5CwhcDUceysfzRckhjhoPirBPJ96eB46mNwQ51m6SVpWA4AVJhKx/Q0+qJkIGdiq4rMcJRMmE9JN3ix6hcJojwSGYYCbn11KmZ+ht1idplmfZRszVxRlXOqdfw2oD2esIOPGLPEP0SLUuIqTQIDe9i4OeZgmI/9BY7t9x6zB8C5OLvMNrBf71EqnNT9IY6if
+          properties :
+           x : 6
+           y : 3
+           width : 401
+           height : 20
+          type : 3
+          code_elements :
+           type_code : 2
+           p_codes : []
+     -
+       internal_properties : CAAAAAgAAADOHf31bQJ7shzaIWfVMMc6vXLzFKxjfdQ2DYjOI5pemsQa4VdFGOsQsMg39B1XV26dtPsqWOlDDyKWZQBMbX9otb5E9dUveUVesp//YDbDKRE8RcMyaKHF4Hm1bZxjs3Un+CsGwMAh/yBLH5RGedx01QsgAmPf8/OpGALEw7fss5owz6g=
+       controls :
+        -
+          name : STC_Entering_XML_code
+          identifier : 0x286d0a700271bde6
+          internal_properties : CAAAAAgAAADlH4nIKVbczfAfODEZjnfO14soepnD+8AQhq7jJR/j+iW+U3c5HnrPnYj0vmH5rDk8pef6G/RQSFn1iQgbKLd21v1KN/wk30kTUMNdixfx6B4RgxgsoSLcon9dMizdxXb+v+IRVl0uGQlFNW4UFaCV3znqx9zwLKwjGml4/cpFqRxn2Ta28OXyHDRPkAJ4RFEi0I8XsBDFUa7Y6o5HVE86pV7DT66FFt7hPgwy7xhiFZh4eK8w5qmKryWKbbmPpxFWQ1g2v8aDD1Day6XXVuJqVJRbtrF3m2gw6RktavpdBKqRZCL37tOyA6G0faXLV4mTW1own4n7JpwXHq7kw572GsaTptW2tkVijC9v+cQoqdq66T4UsgGvk3JFQWLr4dAojhbLz6oH4eYGz53YjWNJI1INu/hi41NM45xASOALyrSNJfWyIFD3rAL9ahAeUtLfJGsWEVOBa3LFSY0CB2uW5b3PQK4R8iHFxGfZOEdwPGFNmGvu739gvGwpHY5yYbrkP/VeEbf8
+          properties :
+           x : 6
+           width : 401
+           height : 20
+          type : 3
+          code_elements :
+           type_code : 2
+           p_codes : []
+        -
+          name : EDT_XMLCODE
+          identifier : 0x286d0a700272bde6
+          internal_properties : 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
+          properties :
+           x : 6
+           y : 21
+           width : 401
+           height : 204
+          type : 2
+          code_elements :
+           type_code : 3
+           p_codes :
+            -
+              type : 276
+              enabled : false
+            -
+              type : 277
+              enabled : false
+            -
+              type : 278
+              enabled : false
+            -
+              internal_properties : CAAAAAgAAAB/Vr4ug2mOSRkua9E6ogJDtqD+JJHJQt1TFDpY9Eund2Qh9VVqSUdrDCtMSQsmvS6DXzVbzkesh9IvYwiJZUvWlOheBMsYVlwMNQNGtorFnHonshoEuMZZNOWEXPAm+RP8oIfLRQAUryGDpS6LiuxQK+LipoDN/lob8FQpD7nwcw==
+              code : |1-
+               
+               bCRManagement is boolean
+               
+               // Retrieves the cursor position
+               nCursor is int = EDT_XMLCODE..Cursor
+               
+               // Retrieves the XML code
+               bufCode    is string = RTFToText(EDT_XMLCODE)
+               
+               // If the input cursor is found at the end of the code
+               IF nCursor = Length(bufCode) THEN
+               	
+               	// Reposition the cursor while taking the carriage returns into account
+               	bCRManagement = True
+               END
+               
+               // Defines the XML code
+               XML:SetCode(bufCode)
+               
+               // Performs the coloring
+               EDT_XMLCODE = XML:Coloring()
+               
+               // Repositions the input cursor
+               EDT_XMLCODE..Cursor = nCursor + (bCRManagement ? Max(0,(StringCount(bufCode, CR) - 1)) ELSE 0)
+              type : 17
+     -
+       internal_properties : CAAAAAgAAADxRBJ2vPpzqho4WclnmpmcH2Ch4GyhQt3G7k8djUNLIB5nNOWc+te6FSxUUzozT8D81y1hg9qZF/KbyYkRVAXe2/ADUIoCkxbK0KLQSxGLMh9KBgt01udIJnS+QZRB9YgGDEB960KOamyRRM16nrdRhny1y8oAAP60B3dNTjQPsAHheH8=
+       controls :
+        -
+          name : STC_Entering_HTML_code
+          identifier : 0x286d0a700274bde6
+          internal_properties : CAAAAAgAAAAd5wKoiSWjACugOZqpaQmDiJzhYeC85r29Tf+v423Z1N8ABddZt31wvimlDWiQk+HbLI4pTEBRg+7sMOUEZS6nxbyLyCK4Fnh/bwynwtWFZy04cnT5J7MUh3IeCLBSVi8xsvBPnw+qZzalnBwNk2DRmu3iaHR2IooLuZonkUPttxLPCnDqEDWIDiEUtHg/sNErNMaQrdcnMgZkqTV3Ds0AukfCozDOknqs0aL9qasRq9PXy41lMRIV2zbmH5+QRqO7S25GmNXbHuNY5fxA+lE4vxtf1hz2u4Kas3lH8O5zSnDSzVL+NqNyYwX+VLhu5WddNSpEpfC8FKm3crvjJ04w+YZDfocBgYz6FM5TkOyIWXL6Hx4NNt/2BzcRyfo6unLdWjgkECFrls5t8Px5NKp1NZFGYxCgyS/zRbgnsZfvthjknQfEsrxhSpJ1wizIEO6zHUxLFl4Wn6SlSe2CGbuAjwX3KGZVOs0xLAcIUaaTYQRoo0jDluRD4NiGSMGHIoEvnlT9iT+E
+          properties :
+           x : 6
+           width : 401
+           height : 20
+          type : 3
+          code_elements :
+           type_code : 2
+           p_codes : []
+        -
+          name : EDT_HTMLCODE
+          identifier : 0x286d0a700275bde6
+          internal_properties : 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
+          properties :
+           x : 6
+           y : 21
+           width : 401
+           height : 204
+          type : 2
+          code_elements :
+           type_code : 3
+           p_codes :
+            -
+              type : 276
+              enabled : false
+            -
+              type : 277
+              enabled : false
+            -
+              type : 278
+              enabled : false
+            -
+              internal_properties : CAAAAAgAAABvZq4eUxl2SVneK2E6gnKjFrB+NCHpYi3jlIq4BDtnp9QBpXVqGTcLbNuseWtGjY4Dj9XrPkest8LP0wiZdevmXEA2PBPAXmQEPQtunkL9BCLfivKsIK5BjI3MZPiesRvE+F+jTWjc91mL7ZazQqT40/r6nghV5kIToIT538ngYw==
+              code : |1-
+               
+               bCRManagement is boolean
+               
+               // Retrieves the cursor position
+               nCursor is int = EDT_HTMLCODE..Cursor
+               
+               // Retrieves the HTML code
+               bufCode    is string = RTFToText(EDT_HTMLCODE)
+               
+               // If the input cursor is found at the end of the code
+               IF nCursor = Length(bufCode) THEN
+               	
+               	// Reposition the cursor while taking the carriage returns into account
+               	bCRManagement = True
+               END
+               
+               // Defines the HTML code
+               HTML:SetCode(bufCode)
+               
+               EDT_HTMLCODE..DisplayEnabled = False
+               
+               // Performs the coloring
+               EDT_HTMLCODE = HTML:Coloring()
+               
+               // Repositions the input cursor
+               EDT_HTMLCODE..Cursor = nCursor + (bCRManagement ? Max(0,(StringCount(bufCode, CR) - 1)) ELSE 0)
+               
+               EDT_HTMLCODE..DisplayEnabled = True
+              type : 17
+    type : 16
+    controls : []
+    code_elements :
+     type_code : 24
+     p_codes :
+      -
+        code : |1-
+         
+         SWITCH TAB_Tab1
+         	CASE 1 : SetFocus(EDT_SQLCODE)
+         	CASE 2 : SetFocus(EDT_XMLCODE)		
+         	CASE 3 : SetFocus(EDT_HTMLCODE)		
+         END
+        type : 17
+      -
+        type : 292
+        enabled : false
+      -
+        type : 293
+        enabled : false
+  -
+    name : BTN_Open
+    identifier : 0x286d0a700276bde6
+    internal_properties : CAAAAAgAAADpxyiFt9s3m0MOJmVfPa2eShJazAi3amRqZKB39x4PSqKDFohECErUf+aL73HkeqS8JeOGSfjj/OU1oNZG8jIXYKwOvgw+E4QIr69EMw7NvuwdY4ZzRJhIhLuFPTUKQslYB/aDGbwJ5cK329xN4dq20nAKuGxv7bYDONiG5/FX32v8RJU9xoAI9i/77cEtImWJ7wkSavnSOiBFdD2mDxsmE7NwxvOKJcWwaFz1llOWMxdAivI9oog9KXVxQJ1qGp3VZJuZ0xnk5lgrS3bIPikdnNbIBBxx21bWbiteGjoiWPQQALTsxtBo+R4uWgbj5IRfiV1UtSEu3WYaG/4iGhQze446B0erf09kY6LBiUvndtkfTlWZRMiujEjCYddsafcSCLDfr/7Plr2f9w+7uX/9Au0xrlPGEMIvB6eaeLW86F+wb4Mdi1Fgegs4RsUsI2OVitsucW5AW+/F6HQugRbOO1AbJZV5S+6ox13j1zq6MqEenCPW8uzUfJhrldQ1hxkMFx/WZHBiC1IMbBD//kSHvC0CVs3mZ42Q8YMPSCT6paLwUV01i6JR0bAQBvFfO0OUfgQkd+92CQWCSSdiKLX/bDGb2GaJSacZLP/7ho1drnnoiNwT+1E2kEKdYzob0FP+nYOnMbpE2EybtvLgr3SCC3ZquRP0DOrBPXjwLwxWUpzlOtJOLdBDcSiiU+IfZ/Yn8Q0/KyUvnMpWgH6tu3+Uq/1UnCiC7kMVGa0n8x5XfDPXbZpoeL1CKBchWhGJXT4AyKgVsfbuzaOmGiO20ChUUb4nTqoL4jiIQFzdAfaM/GCosRZqv0/u2zqJRyY8XBrzaKff2QujiV9VaBVfMDCEW+qH6uyGjXavPMq4E5T4r0jmuoSUPl+k8P9KAtJphSMzW9BIViaUFrDsYdfcBnUT3JBQw/SEDMdYxYa8DPczwRYK7xC4bchZ
+    properties :
+     x : 253
+     y : 268
+     width : 80
+     height : 24
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1-
+         
+         sFile 	is string
+         bufContent	is string
+         
+         SWITCH TAB_Tab1
+         
+         	// SQL
+         	CASE 1
+         		
+         		// Opens the file picker
+         		sFile = fSelect("", "", "Select a file...", "SQL code (*.sql)"+TAB+"*.SQL"+CR+"All files (*.*)"+TAB+"*.*", "SQL", fselOpen+fselExist)
+         		
+         	// XML
+         	CASE 2
+         		
+         		// Opens the file picker
+         		sFile = fSelect("", "", "Select a file...", "XML documents (*.xml)"+TAB+"*.XML"+CR+"All files (*.*)"+TAB+"*.*", "XML", fselOpen+fselExist)
+         		
+         END
+         
+         IF sFile <> "" THEN
+         	
+         	HourGlass(True)
+         	
+         	// Loads the content of the file
+         	bufContent = fLoadText(sFile)
+         	
+         	SWITCH TAB_Tab1
+         	
+         		// SQL
+         		CASE 1
+         			
+         			// Loads the code
+         			SQL:SetCode(bufContent)
+         			
+         			// Performs the coloring
+         			EDT_SQLCODE = SQL:Coloring()
+         			
+         		// XML
+         		CASE 2
+         			
+         			// Loads the code
+         			XML:SetCode(bufContent)
+         			
+         			// Performs the coloring
+         			EDT_XMLCODE = XML:Coloring()			
+         	END
+         	
+         	HourGlass(False)
+         END
+        type : 18
+      -
+        type : 161
+        enabled : false
+ menu :
+  name : _Menu
+  identifier : 0x288731ab322e40c7
+  internal_properties : CAAAAAgAAACCv199ARoPUfG3WAPSG9eefhOOjWMQrs8CrX6cGGGJPoSHWBq4PXhStOWc1YnAZMZ5+EFR1WTDn8CTOTiyLnXPpAR5X8rsRkPZrm1yZeYDDt4kRzDPLbUf4Sh/mD3kd1D8V2drCFLmjeQhgpw7GKGwHRga+ZdjSqXGIC3LD1RracZ230hOmUJTj+ABDW4IHrw4PflmVGgp8E9KnAf/gselRrzEY90l3Cr9N00QijFYYrbrl4qF4kdim1YX6jYT4ezQhbJsU84ENZsxzq+o0JVHYQ8rxck600VhGV04/ao=
+  options : []
+ languages :
+  - en-GB
+ popup_menus : []
+ message_bar :
+  internal_properties : CAAAAAgAAAAEbAKhMdaElX5fk9n9A4dpNqK+txKQ5izKcIoes8j4RJdgY8AHj1G7SMYsPqHyMQSc19mejP1Z9kkWQX6Mljpw0jCbUU9iTXVPPuX53YeyWZhNJzXi2PiNVDdYQw==
+ actionbar : {}
+ code_elements :
+  type_code : 1
+  p_codes :
+   -
+     internal_properties : CAAAAAgAAABt5LtWZkeA/NYnnD4bhuBsG5e0MwG3/k4jQdUZgBKWZNgNsDT5uOO5cC/uYNvirm9gl6Stc6PRI/lkN0y4C89L2ndIxperozdsVG/nULpKKawQwmbCjd8kOjTALUruikRCrSdPW7d9cptrx/vCUvkVd+ajYfmiWEC8CKuF9qDa
+     code : |1-
+      
+      // SQL colorization
+      SQL is cSQLColoring()
+      
+      // XML colorization
+      XML is cXMLColoring()
+      
+      // HTML coloring
+      HTML is cHTMLColoring()
+      
+      // Defines the output mode for the colorizations: RTF mode (in an RTF edit control)
+      SQL:SetOutputMode(cSQLColoring::OUT_RTF)
+      XML:SetOutputMode(cSQLColoring::OUT_RTF)
+      HTML:SetOutputMode(cSQLColoring::OUT_RTF)
+   -
+     code : |1-
+      
+      // See the 'Whenever modified' code of the EDT_SQLCODE, EDT_XMLCODE and EDT_HTMLCODE edit controls
+      
+      // Defines default SQL/XML code
+      SQL:SetCode(RTFToText(EDT_SQLCODE..InitialValue))
+      XML:SetCode(RTFToText(EDT_XMLCODE..InitialValue))
+      HTML:SetCode(RTFToText(EDT_HTMLCODE..InitialValue))
+      
+      // Performs the coloring
+      EDT_SQLCODE = SQL:Coloring()
+      EDT_XMLCODE = XML:Coloring()
+      EDT_HTMLCODE = HTML:Coloring()
+     type : 34
+   -
+     type : 180
+     enabled : false
+   -
+     type : 230
+     enabled : false
+   -
+     type : 11
+   -
+     type : 12
+   -
+     type : 17
+   -
+     type : 13
+ code_parameters :
+  internal_properties : CAAAAAgAAACVGQgYbalU7DKC3oH4ItDrjtcTHXXV/EuH8q0IbhyQlw==
+  original_name : FEN_Fenêtre1
+resources :
+ string_res :
+  identifier : 0x1885fd37007a6223
+  internal_properties : CAAAAAgAAACm76HWfKGWp33VjXInA4cRlqArlgTTA862QGt72W2ld5Y=
+custom_note :
+ internal_properties : CAAAAAgAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+associated_test :
+ name : TEST_SQLXMLHTML.wxt
+rad :
+ internal_properties : CAAAAAgAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe

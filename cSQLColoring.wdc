@@ -1,0 +1,142 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : cSQLColoring
+ major_version : 28
+ minor_version : 0
+ type : 4
+ description : ""
+ subtype : 0
+class :
+ identifier : 0x186d0a730261c9ec
+ internal_properties : CAAAAAgAAAB2/vstTMCJbS/hlxjFxirSqKvCUuv8YxgpWyl7S3iA
+ code_elements :
+  type_code : 10
+  p_codes :
+   -
+     code : |1-
+      
+      // cSQLColoring class
+      // Class derived from cColoring for the syntactic coloring of SQL
+      cSQLColoring is Class
+      	inhérits of cColoring
+      	
+      END
+     type : 131072
+  procedures :
+   -
+     name : Constructor
+     internal_properties : CAAAAAgAAAD70qbMM9n3cZGOCcwd7oNI4A33SgSD+7HkC9k3wl2K0yjgtsL9wcEdQpK+kHSY3IVx4tvyYAzcA/B2xFRPLTS00T36pBH5x6ln9IHGlxv0byU+YUDQwkim8uyFU5tsVRR96Mt89ew4ORDY28Q0Pa1OpKH7w/r39Gy9o79aeUhvMSCo4S+qvsW0V3xxFSrDaMywok6vuG/ZH6IJbtsivEMeJ+tbN3XYx1cXkqPO9P2dFi2NCQhX/RXF3iEx+G6fSDS2X5cxG2Q2uUtNAEkTA5TldO5DLMlpWt0vbhMEvUuduguTBJFAYjk0gyijZMWqziZTlOirnOiCLDJd008IKvtZz2NHegv2SU/CeolpRq109w==
+     procedure_id : 1760074518449277420
+     type_code : 27
+     code : |1-
+      PROCEDURE Constructor(LOCAL sCode is string = "")
+      
+      // Call the constructor
+      Constructor cColoring(sCode)
+      
+      //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+      // Global variables to modify if overload
+      
+      //					  [Startt1, 			End1],  [Startt2, 		End2], ...
+      L_HYPHEN			= [["..."	, 			""	]]							// A start hyphenation with ... until the end of the line
+      L_COMMENT		= [["--"	, 			""	], 	["/*"	, 			"*/"	]]	// A comment starts with -- until the end of the line or it is enclosed between /* and */
+      L_STRING			= [[""""	, 			""""	], 	["'"	, 			"'"	]]	// A string starts with " and it ends with " or with ' and by '
+      L_PROPERTY		= [[".."	, 			""	]]								// A call to a property starts with .. until the end of the lemme
+      L_ESC			= "\"													// Escape character: \
+      
+      //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////	
+      // Style of coloring to modify if overload
+      
+      //					  Font, 		  Size, 	Italic, 	Bold, Underlined, Color
+      S_DEFAULT			= ["Courier New"	, 9, 		False, 		False, False, 	Black]
+      S_STRING			= ["Courier New"	, 9, 		False, 		False, False, 	LightRed]
+      S_COMMENT		= ["Courier New"	, 9, 		False, 		False, False, 	DarkGray]
+      S_CONSTANT			= ["Courier New"	, 9, 		True, 		False, False, 	DarkRed]
+      S_ERROR			= ["Courier New"	, 9, 		False, 		False, False, 	DarkRed]
+      S_FUNCTION			= ["Courier New"	, 9, 		False, 		True, False, 	DarkRed]
+      S_KEYWORD			= ["Courier New"	, 9, 		False, 		False, False, 	DarkRed]
+      S_NUMERIC			= ["Courier New"	, 9, 		False, 		False, False, 	LightRed]
+      S_PROPERTY			= ["Courier New"	, 9, 		False, 		False, False, 	Black]
+      S_SYMBOL			= ["Courier New"	, 9, 		False, 		False, False, 	Black]
+      S_VARIABLE			= ["Courier New"	, 9, 		False, 		False, False, 	DarkRed]		
+      
+      //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////	
+      // Define the SQL language (partially)
+      
+      _LANGUAGE_ 	is array of 0 cColoring::LANGUAGE
+      _ELEMENTS_	is cColoring::LANGUAGE
+      
+      // Defines the keywords
+      _ELEMENTS_ =    [MARK_LANG_KEYWORD, [ ...
+      "CREATE", "ALTER", "DROP", ...
+      "INSERT", "UPDATE", "DELETE", "SELECT", ...
+      "GRANT", "REVOKE", "COMMIT", "ROLLBACK", ...
+      "DISTINCT", "AS", "FROM", "WHERE", "GROUP", "ORDER", "BY", "HAVING", "ASC", "DESC", ...
+      "AND", "OR", "NOT", "IN", "LIKE", "ALL", "SOME", "ANY", "EXISTS", "BETWEEN", "MATCH", "AGAINST", "BOOLEAN", "MODE",  ...
+      "LEFT", "RIGHT", "OUTER", "INNER", "JOIN", "ON", "UNION", "INTERSECT", "EXCEPT", "CASE", "FULL", "NATURAL", "UNIQUE", "LIMIT" ...
+      ]]
+      
+      //				
+      // Equivalent syntax (longer):
+      //
+      // VariableReset(_ELEMENTS_)
+      // _ELEMENTS_:nMarker = ::MARK_LANG_KEYWORD
+      // ArrayAdd(_ELEMENTS_:arrElements, "CREATE")
+      // ArrayAdd(_ELEMENTS_:arrElements, "ALTER")
+      // ...
+      // ArrayAdd(_ELEMENTS_:arrElements, "LIMIT")
+      
+      // Saves the keywords
+      Add(_LANGUAGE_, _ELEMENTS_)
+      
+      
+      // Defines the functions
+      _ELEMENTS_ =    [MARK_LANG_FUNCTION, [ ...
+      "COUNT", "AVG", "MIN", "MAX", "SUM", ...
+      "CURRENT_DATE", "CURRENT_TIME", "CURRENT_TIMESTAMP", "CURRENT_USER", "SESSION_USER", "SYSTEM_USER", ...
+      "CAST", "COALESCE", "NULLIF", "OCTET_LENGTH", "LENGTH", "NVL", "TO_CHAR", "TO_DATE", "TO_NUMBER", ... 
+      "CHAR_LENGTH", "CHARACTER_LENGTH", "COLLATE", "CONCATENATE", "CONCAT", "CONVERT", "LOWER", "POSITION", "SUBSTRING", "SUBSTR", ...
+      "TRANSLATE", "TRIM", "UPPER", "CHAR", "LOCATE", "LCASE", "UCASE", "INSTR", "LPAD", "LTRIM", "RPAD", "RTRIM", "PATINDEX", "REPLACE", ...
+      "REVERSE", "SPACE", "BIT_LENGTH", "ABS", "ASCII", "ASIN", "ATAN", "CEILING", "COS", "COT", "EXP", "FLOOR", "LN", "LOG", "LOG10", "MOD", ... 
+      "POWER", "RAND", "ROUND", "SIGN", "SIN", "SQRT", "TAN", "TRUNC", "TRUNCATE", "UNICODE", "EXTRACT", "INTERVAL", "OVERLAPS" ...
+      ]] 
+      
+      // Saves the functions
+      Add(_LANGUAGE_, _ELEMENTS_)
+      
+      // Defines the constants
+      _ELEMENTS_ =    [MARK_LANG_CONSTANT, [...
+      "PI", "TRUE", "FALSE", "UNKNOWN", "NULL" ...
+      ]]
+      
+      // Save the constants
+      Add(_LANGUAGE_, _ELEMENTS_)
+      
+      // Not used:
+      // MARK_LANG_SYMBOL
+      // MARK_LANG_PROPERTY		
+      // MARK_LANG_VARIABLE	
+      
+      // Defines the language to use	
+      SetLanguage(_LANGUAGE_)
+     type : 589824
+   -
+     name : Destructor
+     procedure_id : 1760074518449342956
+     type_code : 28
+     code : |1+
+      PROCEDURE Destructor()
+      
+     type : 655360
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : CAAAAAgAAACVGQgYbalU7DKC3oH4ItDrjtcTHXXV/EuH8q0IbhyQlw==
+  original_name : CClasse1
+resources :
+ string_res :
+  identifier : 0x1885fde300ac01db
+  internal_properties : CAAAAAgAAACm76HWfKGWp33VjXInA4cRlqArlgTTA862QGt72W2ld5Y=
+custom_note :
+ internal_properties : CAAAAAgAAABtB9HWVzrXO2+4NDRVK0vmzaNKrCKqH1DBX30lMmGZ

@@ -1,0 +1,115 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : cXMLColoring
+ major_version : 28
+ minor_version : 0
+ type : 4
+ description : ""
+ subtype : 0
+class :
+ identifier : 0x186d0a740267cc6d
+ internal_properties : CAAAAAgAAAB2/vstTMCJbS/hlxjFxirSqKvCUuv8YxgpWyl7S3iA
+ code_elements :
+  internal_properties : CAAAAAgAAABm4PVFe9JAHaoZ7pWrapr167xJBrSdz0axAnnnfYhOQaaZf6aFmw+87+hdnze0968KI3y7g0wMbri74fT3L3UE/39pGg==
+  type_code : 10
+  p_codes :
+   -
+     code : |1-
+      
+      // cXMLColoring class
+      // Class derived from cColoring the syntactic coloring of XML
+      cXMLColoring is Class
+      	inhérits of cColoring
+      	
+      END
+     type : 131072
+  procedures :
+   -
+     name : Constructor
+     internal_properties : CAAAAAgAAAD70qbMM9n3cZGOCcwd7oNI4A33SgSD+7HkC9k3wl2K0yjgtsL9wcEdQpK+kHSY3IVx4tvyYAzcA/B2xFRPLTS00T36pBH5x6ln9IHGlxv0byU+YUDQwkim8uyFU5tsVRR96Mt89ew4ORDY28Q0Pa1OpKH7w/r39Gy9o79aeUhvMSCo4S+qvsW0V3xxFSrDaMywok6vuG/ZH6IJbtsivEMeJ+tbN3XYx1cXkqPO9P2dFi2NCQhX/RXF3iEx+G6fSDS2X5cxG2Q2uUtNAEkTA5TldO5DLMlpWt0vbhMEvUuduguTBJFAYjk0gyijZMWqziZTlOirnOiCLDJd008IKvtZz2NHegv2SU/CeolpRq109w==
+     procedure_id : 1760074522744638573
+     type_code : 27
+     code : |1-
+      PROCEDURE Constructor(LOCAL sCode is string = "")
+      
+      // Call the constructor
+      Constructor cColoring(sCode)
+      
+      //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+      // Global variables to modify if overload
+      
+      //					  [Startt1, 			End1],  [Startt2, 		End2], ...
+      L_COMMENT		= [["<!--"	, 			"-->"	]]														// A comment is enclosed between <!-- and -->
+      L_STRING			= [[""""	, 			""""	], 	["'"	, 			"'"	], [">"	, 			"<"	]]		// A string starts with " and it ends with " or it is also text between tag
+      L_PROPERTY			= [[":"	, 			""	]]														// A call to property starts with: until the end of the lemme
+      L_ESC				= ""																				// No escape character
+      VariableReset(L_HYPHEN)																				// No hyphenation	
+      
+      //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////	
+      // Style of coloring to modify if overload
+      
+      //					  Font, 		  Size, 	Italic, 	Bold, Underlined, Color
+      S_DEFAULT			= ["Courier New"	, 9, 		False, 		False, False, 	DarkRed]
+      S_STRING			= ["Courier New"	, 9, 		False, 		False, False, 	LightRed]
+      S_COMMENT		= ["Courier New"	, 9, 		False, 		False, False, 	DarkGray]
+      S_CONSTANT			= ["Courier New"	, 9, 		True, 		False, False, 	DarkBlue]
+      S_ERROR			= ["Courier New"	, 9, 		False, 		False, False, 	Black]
+      S_FUNCTION			= ["Courier New"	, 9, 		False, 		True, False, 	Black]
+      S_KEYWORD			= ["Courier New"	, 9, 		False, 		False, False, 	Black]
+      S_NUMERIC			= ["Courier New"	, 9, 		False, 		False, False, 	LightRed]
+      S_PROPERTY			= ["Courier New"	, 9, 		True, 		False, False, 	DarkBlue]
+      S_SYMBOL			= ["Courier New"	, 9, 		False, 		False, False, 	Black]
+      S_VARIABLE			= ["Courier New"	, 9, 		False, 		False, False, 	DarkRed]		
+      
+      //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////	
+      // Define the XML language
+      
+      _LANGUAGE_ 	is array of 0 cColoring::LANGUAGE
+      _ELEMENTS_	is cColoring::LANGUAGE
+      
+      // Defines the constants
+      _ELEMENTS_ =    [MARK_LANG_CONSTANT, [...
+      "True", "False" ...
+      ]]
+      
+      //				
+      // Equivalent syntax (longer):
+      //
+      // VariableReset(_ELEMENTS_)
+      // _ELEMENTS_:nMarker = ::MARK_LANG_CONSTANT
+      // ArrayAdd(_ELEMENTS_:arrElements, "True")
+      // ArrayAdd(_ELEMENTS_:arrElements, "False")
+      
+      // Save the constants
+      Add(_LANGUAGE_, _ELEMENTS_)
+      
+      // Not used:
+      // MARK_LANG_SYMBOL	
+      // MARK_LANG_PROPERTY	
+      // MARK_LANG_FUNCTION	
+      // MARK_LANG_VARIABLE	
+      // MARK_LANG_KEYWORD		
+      
+      // Defines the language to use	
+      SetLanguage(_LANGUAGE_)
+     type : 589824
+   -
+     name : Destructor
+     procedure_id : 1760074522744704109
+     type_code : 28
+     code : |1+
+      PROCEDURE Destructor()
+      
+     type : 655360
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : CAAAAAgAAACVGQgYbalU7DKC3oH4ItDrjtcTHXXV/EuH8q0IbhyQlw==
+  original_name : CClasse1
+resources :
+ string_res :
+  identifier : 0x18872b620086b5a8
+  internal_properties : CAAAAAgAAACm76HWfKGWp33VjXInA4cRlqArlgTTA862QGt72W2ld5Y=
+custom_note :
+ internal_properties : CAAAAAgAAABtB9HWVzrXO2+4NDRVK0vmzaNKrCKqH1DBX30lMmGZ
